@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n; long long l; char a; float f; double d;
+
+    cin >> n >> l >> a >> f >> d;
+
+    cout << n << endl << l << endl << a << endl << f << endl << d;
+
+    return 0;
+}
