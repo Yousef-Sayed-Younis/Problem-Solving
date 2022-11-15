@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double n; cin >> n;
+
+    double f = n - (int) n;
+
+    if (f > 0) cout << "float " << (int) n << " " << fixed << f;
+    else cout << "int " << (int) n;
+
+    return 0;
+}
