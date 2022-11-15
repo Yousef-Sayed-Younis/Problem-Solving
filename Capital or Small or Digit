@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char x; cin >> x;
+    
+    // Check ASCII Table for These Numbers
+    if (x >= 65 && x <= 122){
+        cout << "ALPHA" << endl;
+
+        if (x >= 65 && x <= 90) cout << "IS CAPITAL";
+        else cout << "IS SMALL";
+    }
+
+    else cout << "IS DIGIT";
+
+    return 0;
+}
