@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double a, b, c; cin >> a >> b >> c;
+
+    if (a <= b && a <= c){
+        cout << a << endl;
+
+        if (b <= c) cout << b << endl << c;
+        else cout << c << endl << b;
+    }
+    else if (b <= a && b <= c){
+        cout << b << endl;
+
+        if (a <= c) cout << a << endl << c;
+        else cout << c << endl << a;
+    }
+    else{
+        cout << c << endl;
+
+        if (a <= b) cout << a << endl << b;
+        else cout << b << endl << a;
+    }
+
+    cout << "\n\n" << a << endl << b << endl << c;
+
+    return 0;
+}
