@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, d; cin >> a >> b >> c >> d;
+
+    int res = (a % 100) * (b % 100) * (c % 100) * (d % 100);
+
+    if (res % 100 < 10) cout << "0" << res % 100;
+    else cout << res % 100;
+
+    return 0;
+}
