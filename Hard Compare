@@ -1,0 +1,18 @@
+#include <math.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long a, b, c, d; cin >> a >> b >> c >> d;
+
+    double x, y;
+
+    x = log(a) * b;
+    y = log(c) * d;
+
+    if (x > y) cout << "YES"; else cout << "NO";
+
+    return 0;
+}
