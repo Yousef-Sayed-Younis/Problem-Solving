@@ -1,13 +1,6 @@
 #include <bits/stdc++.h>
 
-#define endl '\n'
-#define ll long long
-#define even(x) (not (x&1))
-#define charToInt(x) x - 48
-#define string(n) char s[n]
 #define start() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-
-// To cin array do: gets(array);
 
 using namespace std;
 
