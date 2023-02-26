@@ -18,13 +18,13 @@ int main()
 
         for (int i = 0; i < n; i++) ar[s[i]-97] += 1, b.insert(s[i]);
 
-        ll sum = 0;
+        long long sum = 0;
         for (int i = 0; i < n; i++) {
             a.insert(s[i]);
 
             if (ar[s[i] - 97] > 1) ar[s[i] - 97] -= 1; else b.erase(s[i]);
 
-            sum = max(sum, (ll) (a.size() + b.size()));
+            sum = max(sum, (long long) (a.size() + b.size()));
         }
 
         cout << sum << endl;
